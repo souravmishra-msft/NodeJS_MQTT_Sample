@@ -1,0 +1,22 @@
+{
+  "name": "mqtt_node_sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app",
+    "start-dev": "nodemon app"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "mongoose": "^6.1.7",
+    "mosca": "^2.8.3",
+    "mqtt": "^4.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
